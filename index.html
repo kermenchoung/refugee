@@ -1,0 +1,471 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://use.typekit.net/cov6xbo.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+
+
+
+  <title>FusionCharts - Gallery Example - Scroll Column 2D Chart in JavaScript </title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script
+    type="text/javascript"
+    src="/js/lib/dummy.js"
+    
+  ></script>
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+
+
+
+<!-- jQuery -->  
+  <script type="text/javascript" src="jquery.js"></script>  
+
+  <!-- FusionCharts' core JavaScript file-->  
+
+
+  <!-- FusionCharts' jQuery plugin -->  
+  <script type="text/javascript" src="jquery-plugin.js"></script>  
+
+  <!-- FusionCharts maps files -->  
+
+
+      <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+      <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+
+  <style id="compiled-css" type="text/css">
+      
+    /* EOS */
+  </style>
+
+  <script id="insert"></script>
+
+</head>
+<body>
+
+
+  
+  <div class = "main">  
+
+<div id="chart-container">FusionCharts will render here</div>
+
+        <a class="image-link" href="Detailed/test.jpeg">Open popup</a>
+
+
+
+</div>
+
+    <script type="text/javascript">//<![CDATA[
+
+FusionCharts.ready(function() {
+  var salesMap = new FusionCharts({
+    type: 'maps/usa',
+    renderAt: 'chart-container',
+    width: '720',
+    height: '500',
+    dataFormat: 'json',
+    dataSource: {
+      "chart": {
+
+        "unescapeLinks": "0",
+          //  "showlegend": "1",
+
+       // <img width="600" height="600" style="float:right; margin-right: 10px;" src="Detailed/test.jpeg"/>
+
+         //"logoLink": "N-http://www.fusioncharts.com/",
+
+         //"bgImage":"http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+
+    
+       // "unescapeLinks": "0",
+
+
+         //"exportEnabled": "1",
+       //"bgImage": "http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+        "bgImageAlpha": "50",
+       // "bgImageDisplayMode": "stretch",
+
+   // "anchorAlpha": "100",
+ //  "anchorImageAlpha": "100",
+   //  "anchorImageScale": "90",
+
+       
+
+     "showLabels": "1",
+        "useSNameInLabels": "1",
+
+
+
+        "caption": "States agreement on accepting or refusing Syrian Refugees 2015",
+            "captionFont": "DDT",
+        "captionFontSize": "21",
+        "captionFontColor": "#BCB9B8",
+            "subcaptionFontBold": "1",
+      "captionAlignment": "left",
+       // "subcaption": "2015",
+        //"entityFillHoverColor": "#cccccc",
+        
+       // "nullEntityColor":"#867979",
+//"entityFillHoverColor": "#D6D6D6",
+
+//"nullEntityColor":"#867979",
+
+"nullEntityColor":"#867979",
+
+//4166B0
+"entityFillHoverColor": "#4166B0",
+//"hoverOnNull":"1",
+
+"bgColor": "#ffffff",
+
+      'bgAlpha':"100",
+        "numberPrefix": "$",
+        "showLabels": "0",
+        "theme": "fusion"
+      },
+      "colorrange": "0",
+
+
+      "data": [{
+
+        "id": "HI",
+           "color": "#46b337",
+
+
+        //"link": "j-drillDownState-HI|Hawaii"
+
+    //"anchorImageUrl": "https://static.fusioncharts.com/sampledata/userimages/1.png"
+
+//"bgHoverColor": "#ffffff",
+
+
+      }, {
+        "id": "DC",
+        "color": "#cf4040",
+        
+    }, {
+        "id": "MD",
+       // "value": "33592000",
+        "color": "#cf4040",
+       
+      }, {
+        "id": "DE",
+       //"value": "4607000",
+             "color": "#46b337",
+       
+      }, {
+        "id": "RI",
+        "color": "#7c857c",
+       
+      }, {
+        "id": "WA",
+             "color": "#46b337",
+"link": "P-detailsWin,width=600,height=800,left=900px,top=200px,status=no,directories=no, location=no,menubar=no, resizable=no-statements/WA.png",
+       
+      }, {
+        "id": "OR",
+        //"value": "65798000",
+          // "entityFillHoverColor": "#ffffff",
+       "color": "#46b337",
+        
+      
+      }, {
+        "id": "CA",
+       // "value": "61861000",
+          "color": "#46b337",
+          "entityFillHoverColor": "#ffffff",
+          "hoverOnNull":"1",
+
+
+            // "link": "<a class="image-link" href="Detailed/test.jpeg">Open popup</a>",
+
+//"logoURL": "https://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+ //"logoLink": "N-http://www.fusioncharts.com/",
+               //"imageURL": "https://static.fusioncharts.com/sampledata/images/Logo-HM-72x72.png",
+     // "onClick"   "image":"http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+
+// "tooltext": "<b>Shipping Details:</b>{br}Daily shipment: $label Units{br}Average shipping cost: $1.6"
+
+       "entityFillHoverColor": "#ffffff",
+      // "link": "https://en.wikipedia.org/wiki/Apple"
+     // "link": "Detailed/TotalSales.html"
+    
+       // "link": "j-drillDownState-CA|California"
+        // "link": "P-detailsPopUp, width=400, height=300, toolbar=nom scrollbars=no,resizable=no-Detailed/TotalSales.html"
+
+         // "link": "F-Detailed/TotalSales.html"
+         
+         // "link": "P-detailsPopUp,width=400,height=300,toolbar=no, scrollbars=no,resizable=no-Detailed/TotalSales.html"
+
+     // "link": "P-detailsPopUp,width=100,height=100, scrollbars=no,Detailed/TotalSales.html"
+
+    // "bgImage": "http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg",
+
+    // "link": "P-detailsPopUp, width=500, height=500,  scrollbars=no,resizable=no-Detailed/TotalSales.hmtl"
+
+    //"link": "F-Detailed/TotalSales.html"
+
+    //"imageLink": "F-Detailed/TotalSales.html"
+
+   // "link": "P-detailsWin,width=800,height=700,toolbar=yes,location=yes,left=900px,top=200px,status=yes, resizable=yes-https://en.wikipedia.org/wiki/Apple"
+
+      //"link": "P-detailsWin,width=800,height=700,left=900px,top=200px, resizable=yes-http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg"
+
+   //"link": "F-Detailed/test.jpeg ",
+          // "link": "Detailed/test.jpeg ",
+          // "link": "http://static.fusioncharts.com/sampledata/images/butterFinger.png ",
+
+  // onclick="addImage()" /
+//<img width="600" height="600" style="float:right; margin-right: 10px;" src="Detailed/test.jpeg"/>
+
+// "bgImage": "http://upload.wikimedia.org/wikipedia/commons/7/79/Misc_fruit.jpg"
+
+       "link": "P-detailsWin,width=600,height=800,left=900px,top=200px,status=no,directories=no, location=no,menubar=no, resizable=no-Statements/CA.png"
+  
+
+  //"link": "j-showAlert-Apple,$810K",
+
+
+      }, {
+        "id": "AK",
+       // "value": "58911000",
+             "color": "#7c857c",
+
+              "link": "P-detailsWin,width=800,height=700,toolbar=yes,location=yes,left=900px,top=200px,status=yes, detailsWin=kema, resizable=no-https://en.wikipedia.org/wiki/Apple"
+
+           
+       
+      }, {
+        "id": "ID",
+       // "value": "42662000",
+            "color": "#cf4040",
+     
+      }, {
+        "id": "NV",
+       // "value": "78041000",
+            "color": "#B8A692",
+      
+      }, {
+        "id": "AZ",
+        //"value": "41558000",
+            "color": "#cf4040",
+      
+      }, {
+        "id": "MT",
+          "color": "#46b337",
+              "color": "#7c857c",
+     
+      }, {
+        "id": "WY",
+      //  "value": "78834000",
+            "color": "#7c857c",
+      
+      }, {
+        "id": "UT",
+      //  "value": "50512000",
+         "color": "#B8A692",
+    
+      }, {
+        "id": "CO",
+      //  "value": "73026000",
+           "color": "#B8A692",
+   
+      }, {
+        "id": "NM",
+      //  "value": "78865000",
+            "color": "#cf4040",
+      
+      }, {
+        "id": "ND",
+     "color": "#B8A692",
+       
+      }, {
+        "id": "SD",
+       // "value": "35922000",
+        "color": "#7c857c",
+
+      
+      }, {
+        "id": "NE",
+     "color": "#cf4040",
+     
+      }, {
+        "id": "KS",
+  "color": "#cf4040",
+      
+      }, {
+        "id": "OK",
+ "color": "#cf4040",
+   
+      }, {
+        "id": "TX",
+        //"value": "97344000",
+           "color": "#cf4040",
+            "link": "P-detailsPopUp, width=400, height=300, toolbar=nom scrollbars=no,resizable=no-Detailed/TotalSales.hmtl"
+     
+//"link": "https://en.wikipedia.org/wiki/Apple"
+
+      }, {
+        "id": "MN",
+        "color": "#46b337",
+  
+      }, {
+        "id": "IA",
+       "color": "#B8A692",
+   
+      }, {
+        "id": "MO",
+        "color": "#B8A692",
+     
+      }, {
+        "id": "AR",
+     "color": "#cf4040",
+      
+      }, {
+        "id": "LA",
+       "color": "#cf4040",
+          "link": "P-detailsWin,width=600,height=800,left=900px,top=200px,status=no,directories=no, location=no,menubar=no, resizable=no-Statements/LA.png",
+       
+      }, {
+        "id": "WI",
+    "color": "#cf4040",
+     
+      }, {
+        "id": "IL",
+       "color": "#cf4040",
+      
+      }, {
+        "id": "KY",
+       "color": "#cf4040",
+     
+      }, {
+        "id": "TN",
+      "color": "#cf4040",
+    
+      }, {
+        "id": "MS",
+         "color": "#cf4040",
+     
+      }, {
+        "id": "AL",
+       // "value": "75873000",
+        "color": "#cf4040",
+            "link": "P-detailsWin,width=600,height=800,left=900px,top=200px,status=no,directories=no, location=no,menubar=no, resizable=no-Statements/AL.png"
+   
+      }, {
+        "id": "GA",
+        "color": "#cf4040",
+    
+      }, {
+        "id": "MI",
+        "color": "#cf4040",
+
+      }, {
+        "id": "IN",
+    "color": "#cf4040",
+    
+      }, {
+        "id": "OH",
+        "color": "#cf4040",
+     
+      }, {
+        "id": "PA",
+        "value": "54346000",
+              "color": "#46b337",
+      
+      }, {
+        "id": "NY",
+        "value": "42828000",
+              "color": "#46b337",
+   
+      }, {
+        "id": "VT",
+        "value": "77411000",
+              "color": "#46b337",
+     
+      }, {
+        "id": "NH",
+        "color": "#cf4040",
+
+      }, {
+        "id": "ME",
+        "color": "#cf4040",
+         "color": "#cf4040",
+     
+      }, {
+        "id": "MA",
+        "color": "#cf4040",
+     
+      }, {
+        "id": "CT",
+        "value": "57353000",
+              "color": "#46b337",
+      
+      }, {
+        "id": "NJ",
+      "color": "#cf4040",
+     
+      }, {
+        "id": "WV",
+       // "value": "95890000",
+        "color": "#7c857c",
+       
+      }, {
+        "id": "VA",
+    "color": "#B8A692",
+      
+      }, {
+        "id": "NC",
+        "color": "#cf4040",
+      
+      }, {
+        "id": "SC",
+        "color": "#cf4040",
+     
+      }, {
+        "id": "FL",
+    "color": "#cf4040",
+      }]
+    }
+  }).render();
+});
+
+
+
+
+
+
+
+
+  //]]></script>
+
+<!--function myFunction() {
+  alert("You clicked the coffee cup!");
+}
+</script>-->
+ 
+
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "kms1cua8"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+
+</body>
+</html>
